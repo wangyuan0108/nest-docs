@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import routes from '../../routes.json'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Nest通关秘籍",
+  title: "Nest",
   ignoreDeadLinks: true,
   markdown: {
     image: {
@@ -50,10 +50,6 @@ export default defineConfig({
         text: '目录',
         items: routes
       }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/LsyWeb' }
     ],
     
     // 文章翻页
